@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "w7FIVtlPe9Q3Wj7Fi0rzhhS3nTjPJXfLH8S63rv+dEigCSQ08Is1/TBk4W9HFiUo8H4WnTC2VSaGPve56YwGgQ==",
+  "success": true,
+  "projectFilePath": "/Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/AcessoADados-SQLServer-Dapper/AcessoADados-SQLServer-Dapper.csproj",
+  "expectedPackageFiles": [
+    "/Users/mizaeldouglasmello/.nuget/packages/microsoft.netcore.app.ref/7.0.16/microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
+    "/Users/mizaeldouglasmello/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.16/microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512",
+    "/Users/mizaeldouglasmello/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.16/microsoft.netcore.app.host.osx-arm64.7.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}
