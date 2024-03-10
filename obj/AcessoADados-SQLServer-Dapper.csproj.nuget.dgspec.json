@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/AcessoADados-SQLServer-Dapper/AcessoADados-SQLServer-Dapper.csproj": {}
+    "/Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/AcessoADados-SQLServer-Dapper/AcessoADados-SQLServer-Dapper.csproj": {}
   },
   "projects": {
-    "/Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/AcessoADados-SQLServer-Dapper/AcessoADados-SQLServer-Dapper.csproj": {
+    "/Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/AcessoADados-SQLServer-Dapper/AcessoADados-SQLServer-Dapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/AcessoADados-SQLServer-Dapper/AcessoADados-SQLServer-Dapper.csproj",
+        "projectUniqueName": "/Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/AcessoADados-SQLServer-Dapper/AcessoADados-SQLServer-Dapper.csproj",
         "projectName": "AcessoADados-SQLServer-Dapper",
-        "projectPath": "/Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/AcessoADados-SQLServer-Dapper/AcessoADados-SQLServer-Dapper.csproj",
+        "projectPath": "/Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/AcessoADados-SQLServer-Dapper/AcessoADados-SQLServer-Dapper.csproj",
         "packagesPath": "/Users/mizaeldouglasmello/.nuget/packages/",
-        "outputPath": "/Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/AcessoADados-SQLServer-Dapper/obj/",
+        "outputPath": "/Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/AcessoADados-SQLServer-Dapper/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mizaeldouglasmello/.nuget/NuGet/NuGet.Config"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[2.1.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
