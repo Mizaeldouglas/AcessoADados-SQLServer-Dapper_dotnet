@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AcessoADados_SQLServer_Dapper
-build_property.ProjectDir = /Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/AcessoADados-SQLServer-Dapper/
+build_property.ProjectDir = /Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/AcessoADados-SQLServer-Dapper/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

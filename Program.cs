@@ -1,26 +1,20 @@
-﻿using Microsoft.Data.SqlClient;
+﻿using AcessoADados_SQLServer_Dapper;
+using Dapper;
+using Microsoft.Data.SqlClient;
+using AcessoADados_SQLServer_Dapper.Controllers;
 
 const string connectionString = "Server=localhost,1433;Database=balta_cursoAcessoADados;User ID=sa;Password=MyPassword123#";
+var category = new CategoryController();
+
 
 using (var connection = new SqlConnection(connectionString))
 {
-  System.Console.WriteLine("Conectado!");
-  connection.Open();
+  category.UpdateCategory(connection);
+  category.ListCategories(connection);
 
-  using (var command = new SqlCommand())
-  {
-    command.Connection = connection;
-    command.CommandType = System.Data.CommandType.Text;
-    command.CommandText = "SELECT [Id], [Title] FROM [Category]";
+  // category.CreateCateries(connection);
 
-    var reader = command.ExecuteReader();
-
-    while (reader.Read())
-    {
-      System.Console.WriteLine($"{reader.GetGuid(0)} - {reader.GetString(1)}");
-    }
-  }
-  connection.Close();
 
 }
+
 

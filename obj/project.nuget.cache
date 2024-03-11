@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "g0jbNjykLrXv6vpakFTxgr7rOP10i86xjilUINth4R1uttk8iYLfRHXLaa7yMIwwnl2YYg0/lBAE4R8Os2i7lA==",
+  "dgSpecHash": "hsCUB2KUZeHeREBC40YGkBBQ67I48TJFHTWgH93mSXXmq72Xt1L1NAavRinLTG9Aia/HvmLqYx87iRYfgTBJ4g==",
   "success": true,
   "projectFilePath": "/Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/AcessoADados-SQLServer-Dapper/AcessoADados-SQLServer-Dapper.csproj",
   "expectedPackageFiles": [
+    "/Users/mizaeldouglasmello/.nuget/packages/dapper/2.0.90/dapper.2.0.90.nupkg.sha512",
     "/Users/mizaeldouglasmello/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/mizaeldouglasmello/.nuget/packages/microsoft.data.sqlclient/2.1.3/microsoft.data.sqlclient.2.1.3.nupkg.sha512",
     "/Users/mizaeldouglasmello/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.1.1/microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
