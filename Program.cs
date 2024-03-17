@@ -16,5 +16,8 @@ using (var connection = new SqlConnection(connectionString))
     // category.CreateManyCateries(connection);
     // category.CreateCateries(connection);
     // category.ListCategories(connection);
-    category.ExecuteProcedure(connection);
+    // category.ExecuteProcedure(connection);
+    category.ExecuteReadProcedure(connection);
+    
+    
 }

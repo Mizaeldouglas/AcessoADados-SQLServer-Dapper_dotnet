@@ -156,5 +156,23 @@ public class CategoryController
     
   }
   
+  public void ExecuteReadProcedure(SqlConnection connection)
+  {
+    var sql = "[spGetCoursesByCategory]";
+    
+    var pars = new
+    {
+      CategoryId = "09ce0b7b-cfca-497b-92c0-3290ad9d5142"
+    };
+    var couses = connection.Query(sql, pars, commandType: CommandType.StoredProcedure);
+
+    foreach (var item in couses)
+    {
+      Console.WriteLine($"Id = {item.Id}");
+      Console.WriteLine($"Title = {item.Title} \n");
+    }
+    
+  }
+  
   
 }
